@@ -1,0 +1,36 @@
+.selected {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: #253858;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.selected option:not(:hover) {
+    color: black;
+    background-color: white;
+}
+
+.navb{
+    display: flex;
+    justify-content: space-around;
+}
+.imageBox{
+    text-align: center;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    height: 50px;
+    width: 150px;
+    background-color: #666666;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
